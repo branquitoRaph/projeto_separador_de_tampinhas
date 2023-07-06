@@ -43,9 +43,10 @@ A roda seletora é responsável por pegar uma tampinha, girar para ler sua cor e
 ## Instalação e Configuração
 
 1. Clone este repositório em sua máquina local.
-2. Instale as dependências necessárias executando o comando: `npm install`.
-3. Realize a conexão correta do sensor de cor e dos motores de acordo com as especificações do projeto.
-4. Execute o arquivo principal do projeto com o comando: `npm start`.
+2. Ligue a estrutura na energia elétrica.
+3. Ajuste as configurações no script conforme necessário, como calibração do sensor de cor, velocidade dos motores e parâmetros de detecção de cores.
+4. Certifique-se de verificar e atualizar qualquer arquivo de configuração adicional, se necessário.
+5. Inicie o separador de tampinhas e observe o processo de separação por tamanho e por cor em ação.
 
 ## Contribuição
 
@@ -59,6 +60,6 @@ Embora o projeto esteja funcional, reconhecemos que ainda existem oportunidades 
 
 ## Contato
 
-Para mais informações sobre este projeto, entre em contato conosco através do e-mail: exemplo@email.com.
+Para mais informações sobre este projeto, entre em contato conosco através do e-mail: raphaelbranco@ucl.br
 
 
