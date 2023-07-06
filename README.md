@@ -19,9 +19,19 @@ A roda seletora é responsável por pegar uma tampinha, girar para ler sua cor e
 ## Funcionalidades Principais
 
 - Identificação precisa das cores das tampinhas utilizando um sensor de cor.
-- Separar automaticamente as tampinhas por cores pré-determinadas.
-- Movimentação das tampinhas através de motores e esteiras para o processo de separação.
-- Integração com outros sistemas ou dispositivos para posterior armazenamento ou descarte adequado das tampinhas.
+- Separação das tampinhas por tamanho, utilizando uma caixa separadora com três níveis.
+  - O primeiro nível é projetado para tampinhas maiores, com diâmetro de 40mm.
+  - O segundo nível é destinado a tampinhas PET em geral, com diâmetro entre 20mm e 40mm.
+  - O último nível é projetado para tampinhas menores, com diâmetro inferior a 20mm.
+- Movimentação das tampinhas através de motores e esteiras para o processo de separação por tamanho.
+- Separação das tampinhas restantes por cor, utilizando um separador específico.
+  - A estrutura do separador é a de um gabinete de computador.
+  - Inserção de um galão de água no topo do gabinete para despejo das tampinhas.
+  - Utilização de um cano de 45mm dentro do galão para empilhar as tampinhas.
+  - Uso de uma roda seletora para pegar, girar e ler a cor de cada tampinha.
+  - Direcionamento da tampinha para a rampa correspondente, com base na cor identificada.
+- Despejo das tampinhas separadas nos respectivos recipientes de coleta, organizados por cor.
+
 
 ## Benefícios e Vantagens
 
