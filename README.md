@@ -7,7 +7,14 @@ A separação manual de tampinhas por cores é um processo demorado e suscetíve
 
 ## Solução Proposta
 
-Nossa solução consiste em um sistema que utiliza um sensor de cor para identificar as cores das tampinhas. O sistema é composto por uma estrutura mecânica que realiza a separação das tampinhas com base nas informações obtidas pelo sensor. Além disso, são utilizados motores e esteiras para o movimento das tampinhas.
+Nossa solução foi dividir o problema em duas etapas: separação por tamanho e separação por cor.
+
+Na etapa de separação por tamanho, desenvolvemos uma caixa separadora com três níveis, semelhante a uma peneira. O primeiro nível é projetado para tampinhas maiores, com diâmetro de 40mm. O segundo nível é destinado a tampinhas PET em geral, com diâmetro entre 20mm e 40mm. Por fim, o último nível é projetado para tampinhas menores, com diâmetro inferior a 20mm. Essa estrutura permite que as tampinhas sejam direcionadas ao nível apropriado de acordo com seu tamanho.
+
+Após a etapa de separação por tamanho, as tampinhas que permaneceram no segundo nível são encaminhadas para o separador por cor. Criamos uma estrutura semelhante a um gabinete de computador, onde fizemos um furo na parte superior para a inserção de um galão de água, que funciona como local para despejo das tampinhas. Dentro desse galão, há um cano de 45mm que empilha as tampinhas, permitindo que caiam uma por uma em uma roda seletora.
+
+A roda seletora é responsável por pegar uma tampinha, girar para ler sua cor e, em seguida, girar novamente para direcionar a tampinha para a rampa correspondente ao local correto de despejo com base em sua cor. Dessa forma, as tampinhas são separadas de acordo com sua cor e despejadas nos respectivos recipientes de coleta.
+
 
 ## Funcionalidades Principais
 
